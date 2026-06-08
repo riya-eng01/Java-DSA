@@ -10,7 +10,7 @@ public class Assignment {
         }
 
         // Ques-2
-        int n = 10899;
+        int n = 329674;
         int evenSum = 0;
         int oddSum = 0;
 
