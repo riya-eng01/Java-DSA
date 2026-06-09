@@ -8,8 +8,8 @@ public class Functions {
     }
 
     // Function to add two numbers
-    public static int sumOfTwoNums(int a, int b) {
-        int sum = a + b;
+    public static int sumOfTwoNums(int num1, int num2) { // function parameters
+        int sum = num1 + num2;
         return sum;
     }
 
@@ -39,6 +39,9 @@ public class Functions {
         int a = sc.nextInt();
         System.out.print("Enter number: ");
         int b = sc.nextInt();
-        System.out.println("Sum = " + sumOfTwoNums(a,b)); 
+
+        int sum = sumOfTwoNums(a,b); // arguments or actual parameters
+
+        System.out.println("Sum = " + sum); 
     }
 }
