@@ -17,7 +17,7 @@ public class PrintPrimesInRange {
     // print primes in a range
     public static void PrintPrimes(int n) {
         for (int i = 2; i <= n; i++) {
-            if (isPrime(i) == true) {
+            if (isPrime(i)) {
                 System.out.print(i + " ");
             }
         }
