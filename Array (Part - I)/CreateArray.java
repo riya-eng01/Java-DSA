@@ -19,9 +19,12 @@ public class CreateArray {
         String fruits[] = {"apple", "Banana", "Mango", "Orange"};
 
         // Printing an array
-        for (int item : fruits) {
+        for (String item : fruits) {
             System.out.print(item + " ");
         }
         System.out.println();
+
+        int moreNumbers[] = {6, 7, 8};
+        System.out.println(moreNumbers[0]);
     }
 }
