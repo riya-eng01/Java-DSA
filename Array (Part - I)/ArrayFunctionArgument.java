@@ -14,6 +14,8 @@ public class ArrayFunctionArgument {
         for (int i = 0; i < marks.length; i++) {
             System.out.print(marks[i] + " ");
         }
+
+        
         System.out.println();
     }
 }
