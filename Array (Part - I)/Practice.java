@@ -9,11 +9,26 @@ public class Practice {
         return -1; // key not found
     }
 
+    // linear Search for String array
+    public static int linearSearch(String arr[], String key) {
+        for(int i = 0; i < arr.length; i++) {
+            if (arr[i] == key) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String args[]) {
         int numbers[] = {2, 4, 6, 8, 10, 12, 14, 16};
         int key = 10;
 
-        int index = linearSearch(numbers, key);
+        // String array
+        String fruits[] = {"apple", "banana", "orange"};
+        String item = "orange";
+
+        // int index = linearSearch(numbers, key);
+        int index = linearSearch(fruits, item);
 
         if (index == -1) {
             System.out.println("Not Found");
